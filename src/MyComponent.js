@@ -20,7 +20,7 @@ export class MyComponent extends LitElement {
 
   constructor() {
     super();
-    this.title = 'Hey there';
+    this.title = 'Hola soy Steven';
     this.counter = 5;
   }
 
