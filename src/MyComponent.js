@@ -3,6 +3,9 @@ import { html, css, LitElement } from 'lit-element';
 export class MyComponent extends LitElement {
   static get styles() {
     return css`
+      .btn-steven{
+        background-color:#ffbb44;
+      }
       :host {
         display: block;
         padding: 25px;
@@ -31,7 +34,7 @@ export class MyComponent extends LitElement {
   render() {
     return html`
       <h2>${this.title} Nr. ${this.counter}!</h2>
-      <button @click=${this.__increment}>increment</button>
+      <button class="btn-steven" @click=${this.__increment}>increment</button>
     `;
   }
 }
